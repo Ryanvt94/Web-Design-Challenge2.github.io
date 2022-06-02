@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <div class="navigator">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="landingpage.html">Latitude</a>
+          <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+  
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="cloudinesspage.html"><img src="Resources\assets\images\cloudiness.png" width="50"> Cloudiness</a>
+                  <a class="dropdown-item" href="humiditypage.html"><img src="Resources\assets\images\humidity.png" width="50"> Humidity</a>
+                  <a class="dropdown-item" href="temperaturepage.html"><img src="Resources\assets\images\temperature.png" width="50"> Temperature</a>
+                  <a class="dropdown-item" href="windspeed.html"><img src="E:\class\Homework\Web-Design-Challenge\Resources\assets\images\windspeed.png" width="50"> Wind Speed</a>
+                  <hr class="dropdown-divider">
+                  <a class="dropdown-item" href="landingpage.html">Home Page</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="datapage.html">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="comparison.html">Comparison</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+  
+    <!-- Create the container -->
+    <section id="imageNav-area">
+      <div class="imageNav-content">
+        <h2 class="imageNav-header">Comparison</h2>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <a href="temperaturepage.html"><img src="Resources\assets\images\cloudiness.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+            </div>
+            <div class="col-6">
+              <a href="humiditypage.html"><img src="Resources\assets\images\humidity.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo"></a>
+            </div>
+            <div class="col-6">
+              <a href="temperaturepage.html"><img src="Resources\assets\images\temperature.png" alt="Latitude vs. Temperature", title="Latitude vs. Temperature" class="imageNav-photo"></a>
+            </div>
+            <div class="col-6">
+              <a href="windspeed.html"><img src="Resources\assets\images\windspeed.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
